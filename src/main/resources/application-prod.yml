@@ -1,0 +1,8 @@
+server:
+  servlet:
+    context-path: /open/api
+
+limit:
+    minMoney: 1
+    maxMoney: 9999,
+    description: 最少要发${limit.minMoney}, 最多不能超过${limit.maxMoney}
